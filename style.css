@@ -1466,16 +1466,6 @@
         display: flex;
     }
 
-    /* Year in footer using CSS content */
-    .copyright::after {
-        content: "2024";
-    }
-
-    /* Remove JavaScript-dependent elements */
-    [onclick], [onsubmit] {
-        cursor: pointer;
-    }
-
     /* Form validation using pure CSS */
     input:invalid, textarea:invalid {
         border-color: red;
